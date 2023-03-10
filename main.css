@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.newgame{
+    scale: 0;
+}
+
+.ptr{
+   pointer-events: none;
+}
+.win{
+    background-color: rgba(0, 255, 0, 0.3);
+}
